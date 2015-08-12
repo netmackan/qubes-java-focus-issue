@@ -195,7 +195,7 @@ public class MainFrame extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
     private void showPopup() {
-        final JDialog popupWindow = new JDialog(this, true);
+        final JDialog popupWindow = new JDialog(this, false);
         popupWindow.add(new JLabel("This is the popup"));
         popupWindow.setLocation(100, 100);
         popupWindow.pack();
