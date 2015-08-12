@@ -63,7 +63,7 @@ public class MainFrame extends javax.swing.JFrame {
         jTextArea1.setEditable(false);
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("To display the popup window:\n- use the menu item File -> Show popup or\n- press Ctrl+S or\n- Use the button below.\n\nThe window is supposed to display the text \"This is the popup\" and stay open until focus is lost by for instance clicking outside the popup.\n\nThe issue is reproduced if the popup is not displayed or only displayed briefly. Sometimes you can be lucky and the window is displayed. You can press and hold Ctrl+S pressed down until this happens as in this example the dialog will stay open (it is modal).");
+        jTextArea1.setText("To display the popup window:\n- use the menu item File -> Show popup or\n- press Ctrl+S or\n- Use the button below.\n\nThe window is supposed to display the text \"This is the popup\" and stay open until focus is lost by for instance clicking outside the popup.\n\nThe issue is reproduced if the popup is not displayed or only displayed briefly. Sometimes you can be lucky and the window is displayed.");
         jTextArea1.setWrapStyleWord(true);
         jScrollPane1.setViewportView(jTextArea1);
 

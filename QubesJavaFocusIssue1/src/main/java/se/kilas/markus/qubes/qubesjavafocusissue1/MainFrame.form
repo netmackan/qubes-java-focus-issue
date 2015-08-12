@@ -142,7 +142,7 @@
                 <Property name="editable" type="boolean" value="false"/>
                 <Property name="lineWrap" type="boolean" value="true"/>
                 <Property name="rows" type="int" value="5"/>
-                <Property name="text" type="java.lang.String" value="To display the popup window:&#xa;- use the menu item File -&gt; Show popup or&#xa;- press Ctrl+S or&#xa;- Use the button below.&#xa;&#xa;The window is supposed to display the text &quot;This is the popup&quot; and stay open until focus is lost by for instance clicking outside the popup.&#xa;&#xa;The issue is reproduced if the popup is not displayed or only displayed briefly. Sometimes you can be lucky and the window is displayed. You can press and hold Ctrl+S pressed down until this happens as in this example the dialog will stay open (it is modal)."/>
+                <Property name="text" type="java.lang.String" value="To display the popup window:&#xa;- use the menu item File -&gt; Show popup or&#xa;- press Ctrl+S or&#xa;- Use the button below.&#xa;&#xa;The window is supposed to display the text &quot;This is the popup&quot; and stay open until focus is lost by for instance clicking outside the popup.&#xa;&#xa;The issue is reproduced if the popup is not displayed or only displayed briefly. Sometimes you can be lucky and the window is displayed."/>
                 <Property name="wrapStyleWord" type="boolean" value="true"/>
               </Properties>
             </Component>
