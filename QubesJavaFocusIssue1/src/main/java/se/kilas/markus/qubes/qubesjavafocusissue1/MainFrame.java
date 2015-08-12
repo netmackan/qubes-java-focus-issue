@@ -46,6 +46,7 @@ public class MainFrame extends javax.swing.JFrame {
         jMenu1.setText("jMenu1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("MainWin");
 
         jToolBar1.setRollover(true);
 
@@ -196,6 +197,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void showPopup() {
         final JDialog popupWindow = new JDialog(this, false);
+        popupWindow.setTitle("PopupWin");
         popupWindow.add(new JLabel("This is the popup"));
         popupWindow.setLocation(100, 100);
         popupWindow.pack();
